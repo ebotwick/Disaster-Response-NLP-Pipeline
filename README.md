@@ -20,6 +20,7 @@ This repository contains all the nessary files to run a webapp that can classify
 ![TerminalScreenshot](/images/TerminalScreenshot.png)
 
 4. Access the app in a web browser by going to https://SPACEID-3001.SPACEDOMAIN
-note - if you do not have any returned output of the 'env|grep WORK' command access the webapp at http://0.0.0.0:3001/
+
+note - if you do not have any returned output of the 'env|grep WORK' command, access the webapp at http://0.0.0.0:3001/
 
 5. Once on the site, type in a message in the text box and click 'classify message' to see how that message would be routed in a disaster scenario
