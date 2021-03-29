@@ -24,3 +24,5 @@ This repository contains all the nessary files to run a webapp that can classify
 note - if you do not have any returned output of the 'env|grep WORK' command, access the webapp at http://0.0.0.0:3001/
 
 5. Once on the site, type in a message in the text box and click 'classify message' to see how that message would be routed in a disaster scenario
+
+6. To do - update readme to include domino hosted flask app deployment!
