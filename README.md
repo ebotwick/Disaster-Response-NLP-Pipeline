@@ -12,7 +12,7 @@ This repository contains all the nessary files to run a webapp that can classify
     - Run the ML pipeline that pulls data from the database created in the ETL phase and trains a classifier and saves
         `python scripts/train_classifier.py data/DisasterResponse.db RandomForestClassifier.pkl`
 
-2. Run the following command in the app's directory to run your web app.
+2. Run the following command in the app's directory to run your web app. 
     `python run.py`
 
 3. From a terminal run 'env|grep WORK' and you should see output similar to
