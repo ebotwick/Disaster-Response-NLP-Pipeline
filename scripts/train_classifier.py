@@ -19,7 +19,7 @@ from sklearn.model_selection import GridSearchCV
 import pickle
 import warnings
 warnings.filterwarnings('ignore')
-# nltk.download('stopwords')
+nltk.download('stopwords')
 
 def load_data(database_filepath):
     '''
@@ -28,7 +28,7 @@ def load_data(database_filepath):
 
     Returns: The merged df
         '''
-    engine = create_engine('sqlite:///data/{}'.format(database_filepath))
+    engine = create_engine('sqlite:///{}'.format(database_filepath))
     conn = engine.connect()
     df = pd.read_sql_table('messagesCategorizedCommandLine', conn)
     X = df['message']
